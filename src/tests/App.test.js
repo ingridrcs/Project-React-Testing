@@ -5,7 +5,7 @@ import { MemoryRouter, Router } from 'react-router-dom/cjs/react-router-dom.min'
 import { createMemoryHistory } from 'history';
 import App from '../App';
 
-describe('', () => {
+describe('Testando o componente <App.js>', () => {
   const customHistory = createMemoryHistory();
   it('Teste se o topo da aplicação contém um conjunto fixo de links de navegação', () => {
     render(
